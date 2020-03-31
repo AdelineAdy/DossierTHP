@@ -1,0 +1,52 @@
+.header
+{
+display: flex;
+justify-content: flex-end;
+align-items: stretch;
+width: 100%;
+font-family: arial;
+}
+
+.header a{
+margin-right: 6px;
+}
+
+.nav
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 500px;
+font-family: arial;
+}
+
+.ads{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.stop
+{
+display: flex;
+height: 30px;
+}
+
+.country
+{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+font-family: arial;
+}
+
+.footer
+{
+display: flex;
+justify-content: space-between;
+align-self: flex-end;
+width: 100%;
+font-family: arial;
+}
